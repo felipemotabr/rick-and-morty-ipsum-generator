@@ -1,0 +1,228 @@
+@font-face {
+	font-family: 'Calligraphr';
+	src:  /* url('myfont.woff') format('woff'), Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	 url('fonts/Calligraphr-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+	 
+}  
+
+/* https://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain)*/a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+*{box-sizing: border-box; margin: 0; padding: 0;}
+html{
+	height: 100%;
+	width: 100%;
+}
+body{
+	height: 100%;
+	width: 100%;
+	font-size: 18px;
+	font-family: "Calligraphr", serif;
+	line-height: 1.5;
+	background-color: #ffffff;
+	color: #222222;
+	background-image: url(img/bg-unitys-planet.jpg);
+	background-size: cover;
+}
+
+select, input, button, form {
+	font-family: "Calligraphr", serif;
+}
+select, input {
+	color: #000!important;
+	border-radius: 4px;
+}
+
+/* Wrapper */
+.wrapper{
+	margin: auto;
+	max-width: 1200px;
+	padding: 25px;
+}
+.wrapper h1 {
+	padding: 15px;
+	font-size: 22px;
+}
+
+.filter-form{
+	/* padding: 0px 40px; */
+	margin-bottom: 15px;
+	padding: 20px;
+	background-color: #297ae9;
+	color: #fff;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 7px 22px -6px #000000; 
+			box-shadow: 0px 7px 22px -6px #000000;
+}
+.show-ipsum { 
+	position: relative;
+	min-height: 30vh;
+	background-color: #ffffff;
+	overflow: auto;
+	padding: 20px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 7px 22px -6px #000000; 
+			box-shadow: 0px 7px 22px -6px #000000;
+}
+
+/* Logo */
+.logo {
+	margin-bottom: 16px
+}
+.logo img {
+	margin: auto;
+}
+
+/* Characters */
+.characters, .logo {
+	text-align: center
+}
+.characters img {
+    height: 80vh;
+}
+
+/* Display Area */
+#display {
+    left: 40px;
+    right: 40px;
+    top: 20px;
+    border-radius: 13px;
+    height: 40vh;
+    overflow: auto;
+}
+#display p {
+    margin-bottom: 20px;
+}
+.show-ipsum #btn-default {
+    right: 0;
+    top: 0;
+}
+
+
+/*Form Styles*/
+form { 
+	width: 100%;
+
+}
+form p {
+	line-height: 30px;
+	height: 30px;
+	display: inline-block;
+	margin: 5px;
+}
+form input{
+	width: 40px;
+	text-align: center;
+}
+form select{
+	padding: 0px 10px;
+}
+form select, form input{
+	display: inline-block;
+	margin: 0px;
+	line-height: 30px;
+	height: 28px;
+	border: none;
+	outline: none;
+	background-color: #FFFFFF;
+}
+
+/* Button Global */
+#btn-default{
+	cursor: pointer;
+	outline: 0;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #ffd92d;
+    color: #FFFFFF;
+    color: #ac00bf;
+    font-weight: 900;
+    border-radius: 7px;
+    border-style: none;
+    font-size: 18px;
+	-webkit-box-shadow: 0px 4px 9px -3px rgba(0,0,0,0.6); 
+			box-shadow: 0px 4px 9px -3px rgba(0,0,0,0.6);
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+		-ms-user-select: none;
+		 -o-user-select: none;
+			user-select: none;
+}
+.btn-generate {
+	display: inline-block;
+	margin-left: 18px;
+}
+.btn-copy {
+	text-align: center;
+    margin-top: 20px!important;
+}
+.btn {
+	text-align: center;
+	margin: auto;
+}
+
+/* Selection Color  */
+.bottom ::selection { 
+	background: #e26b1f;
+	color: white; 
+}
+.bottom ::-moz-selection  /* Firefox */{ 
+	background: #e26b1f;
+	color: white; 
+}
+
+/* SHOW IPSUM */
+.show-ipsum ::selection {
+	background: #ffc200; /* WebKit/Blink Browsers */
+}
+.show-ipsum ::-moz-selection {
+	background: #ffc200; /* Gecko Browsers */
+}
+
+/* COPYRIGHT */
+.copyright {
+    text-align: center;
+    margin: auto;
+    color: #fff;
+}
+
+footer {
+    position: absolute;
+    font-size: 15px;
+    bottom: 0;
+    width: 100%;
+    padding: 14px;
+    text-align: center;
+    background-color: #3e9bb7;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/assets/img/asfalt-dark.png);
+    border-top: 6px solid #17a8af;
+}
+footer a {
+	color: #fff;
+	text-decoration: underline
+} 
+
+/* Media Queries */
+@media screen and (max-width: 516px){
+	.top{
+		height: 200px;
+	}
+	.bottom{
+		height: calc(100vh - 200px);
+	}
+	.display{
+		top: 60px;
+	}
+}
+@media screen and (min-width: 768px){
+	.characters {
+	    margin-top: -25%;
+	}
+}
+@media screen and (max-width: 767px){
+	.characters {
+		display: none
+	}
+}

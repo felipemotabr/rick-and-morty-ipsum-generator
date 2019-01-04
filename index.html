@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+
+<head>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+
+
+<title>Rick and Morty Loren Ipsum Generator</title>
+
+<meta name="keywords" content="Rick, Morty, Loren, Ipsum"/>
+<meta name="description" content="Rick and Morty Loren Ipsum Generator"/>
+
+<meta name="robots" content="index,follow" />
+
+<meta name="og:title" content="Rick and Morty Loren Ipsum Generator"/>
+<meta name="og:type" content="movie"/>
+<meta name="og:url" content="link"/>
+<meta name="og:image" content="link imagem"/>
+<meta name="og:site_name" content="Felipe Mota"/>
+<meta name="og:description" content="Rick and Morty Loren Ipsum Generator"/>
+
+<meta name="author" content="Felipe Mota">
+
+<link rel="shortcut icon" type="image/ico" href="assets/img/favicon.png" />
+
+<!--Dependencies-->
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+
+<!--[if lte IE 8]>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+<!--<![endif]-->
+</head>
+
+<body>
+
+<div class="wrapper">
+  <div class="pure-g">
+
+	<!-- LOGO -->
+	<div class="pure-u-1 logo">
+		<img class="pure-img" src="assets/img/logo.png" alt="Logo Rick and Morty Loren Ipsum">
+	</div>
+
+	<!-- COLUMN 1 -->
+	<div class="pure-u-1  pure-u-md-1-2">
+	  <div class="characters">
+		<img src="assets/img/characters.png" alt="Rick and Morty">
+	  </div>
+	</div>
+
+	<!-- COLUMN 2 -->
+	<div class="pure-u-1  pure-u-md-1-2 box-lorem">
+		<div class="filter-form">
+			<!-- <h1>Rick and Morty Ipsum Generator (Rick-Ipsum)</h1> -->
+			<form class="collect-vars">
+				<p>Rick! I need</p>
+				<input id="num" class="number checked" type="number" value="1" min="1" max="999" maxlength="3" name="num">
+					<p>of your</p>
+				<select id="typ" class="thing checked" name="font">
+					<option value="w">words</option>
+					<option value="s" selected>sentences</option>
+					<option value="p">paragraphs</option>
+				</select>	
+				<div id="btn-default" class="btn-generate">Generate</div>
+			</form>
+		</div><!-- // pure-u-md-1-2 -->
+	 	<div class="show-ipsum">
+	 		<div id="display" >
+	 			<p>Listen to your sister, Morty. To live is to risk it all, 
+	 			otherwise you’re just an inert chunk of randomly assembled 
+	 			molecules drifting wherever the universe blows you.</p>
+	 		</div>
+	 		<p><button id="btn-default" class="btn btn-copy" data-clipboard-action="copy" data-clipboard-target="#display">Copy</button></p>
+	 	</div>
+	</div><!-- // pure-u-md-1-2 -->
+
+	
+  </div><!-- // pure-g -->
+</div> <!-- // wrapper -->
+
+<footer>
+	<p>Developer by  <a href="https://www.felipemota.com.br" target="_blank">Felipe Mota</a></p>
+	<p>Source code is available on <a href="https://github.com/felipemotabr/rick-and-morty-ipsum-generator" target="_blank">GitHub</a></p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="https://unpkg.com/clipboard@2.0.0/dist/clipboard.min.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>
