@@ -185,10 +185,9 @@ form select, form input{
     margin: auto;
     color: #fff;
 }
-
 footer {
     position: absolute;
-    font-size: 15px;
+    font-size: 12px;
     bottom: 0;
     width: 100%;
     padding: 14px;
@@ -196,7 +195,7 @@ footer {
     background-color: #3e9bb7;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(/assets/img/asfalt-dark.png);
+    background-image: url(img/asfalt-dark.png);
     border-top: 6px solid #17a8af;
 }
 footer a {
