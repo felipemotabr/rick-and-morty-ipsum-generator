@@ -10,3 +10,7 @@ Join
 **Felipe Mota**
 - <https://github.com/felipemotabr>
 - <https://twitter.com/felipemotabr>
+
+## License
+
+Open sourced under the [MIT license](LICENSE.md).
