@@ -7,6 +7,6 @@ Join
 
 ## Author
 
-**Felipe Mpta**
+**Felipe Mota**
 - <https://github.com/felipemotabr>
 - <https://twitter.com/felipemotabr>
