@@ -85,7 +85,7 @@ select, input {
     right: 40px;
     top: 20px;
     border-radius: 13px;
-    height: 40vh;
+    height: 23vh;
     overflow: auto;
 }
 #display p {
